@@ -5,8 +5,8 @@ That means, that I don't use ";" or "{".
 But you can use them.
 Example:
 ```py
-globals().__setitem__("p",print) # Long but Pythonic
-p=print # Short but not Pythonic
+globals().__setitem__("p",print)or globals().__setitem__("b",[" "]*9) # Long but Pythonic
+p=print;b=[" "]*9 # Short but not Pythonic
 ```
 Length: 700chars
 
